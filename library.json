@@ -17,7 +17,8 @@
     }],
     "version": "1.71.0",
     "license" : "BSL-1.0",
-    "downloadUrl": "https://dl.bintray.com/boostorg/release/1.71.0/source/boost_1_71_0.tar.gz",
+
+    "downloadUrl": "https://boostorg.jfrog.io/artifactory/main/release/1.82.0/source/boost_1_82_0.tar.gz",
 
     "frameworks": ["arduino", "esp8266-nonos-sdk", "esp8266-rtos-sdk"],
     "platforms": ["teensy", "espressif32", "espressif8266", "atmelavr"]
