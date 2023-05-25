@@ -1,21 +1,13 @@
 {
-    "name": "boost",
-    "keywords": "c++, generic, boost, collections",
-    "description": "The famous Boost C++ Libraries. All original files included but only some libraries will work on your system.",
-    "authors":
-    [
-    {
-        "name": "Cristi Posoiu",
-        "email": "cristi@posoiu.net",
-        "url": "https://www.posoiu.net",
-	"maintainer": true
+    "name": "boost-preprocessor",
+    "version": "1.82.0",
+    "repository": {
+        "type": "git",
+        "repository": "https://github.com/boostorg/preprocessor.git"
     },
-    {
-	"name": "Boost Users",
-        "email": "boost-users@lists.boost.org",
-	"url": "https://www.boost.org"
-    }],
-    "version": "1.71.0",
-    "license" : "BSL-1.0",
-    "repository": "https://github.com/boostorg/preprocessor.git"
+    "export": {
+        "include": [
+            "include"
+        ]
+    }
 }
