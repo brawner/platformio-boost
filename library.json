@@ -3,11 +3,11 @@
     "version": "1.82.0",
     "repository": {
         "type": "git",
-        "repository": "https://github.com/boostorg/preprocessor.git"
+        "repository": "https://github.com/boostorg/preprocessor"
     },
     "export": {
         "include": [
-            "include"
+            "include/*"
         ]
     }
 }
